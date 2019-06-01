@@ -24,7 +24,11 @@ public class A {
 		System.out.println("hello tushar");
 	}
 	
-	
+	@BeforeClass
+	public static void t2g()
+	{
+		System.out.println("hello tushar");
+	}
 	
 	
 	
