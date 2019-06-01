@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="88" started-at="2019-05-25T08:18:10Z" finished-at="2019-05-25T08:18:10Z">
+    <groups>
+      <group name="All">
+        <method signature="A.tcase1()[pri:0, instance:testing.A@f5f2bb7]" name="tcase1" class="testing.A"/>
+        <method signature="B.tcase2()[pri:0, instance:testing.B@73035e27]" name="tcase2" class="testing.B"/>
+      </group> <!-- All -->
+      <group name="P1">
+        <method signature="A.tcase1()[pri:0, instance:testing.A@f5f2bb7]" name="tcase1" class="testing.A"/>
+        <method signature="B.tcase2()[pri:0, instance:testing.B@73035e27]" name="tcase2" class="testing.B"/>
+      </group> <!-- P1 -->
+      <group name="Smoke">
+        <method signature="A.tcase1()[pri:0, instance:testing.A@f5f2bb7]" name="tcase1" class="testing.A"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="88" started-at="2019-05-25T08:18:10Z" finished-at="2019-05-25T08:18:10Z">
+      <class name="testing.A">
+        <test-method status="PASS" signature="brStart()[pri:0, instance:testing.A@f5f2bb7]" name="brStart" is-config="true" duration-ms="19" started-at="2019-05-25T13:48:10Z" finished-at="2019-05-25T13:48:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brStart -->
+        <test-method status="PASS" signature="tcase1()[pri:0, instance:testing.A@f5f2bb7]" name="tcase1" duration-ms="14" started-at="2019-05-25T13:48:10Z" finished-at="2019-05-25T13:48:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcase1 -->
+        <test-method status="PASS" signature="closebr()[pri:0, instance:testing.A@f5f2bb7]" name="closebr" is-config="true" duration-ms="1" started-at="2019-05-25T13:48:10Z" finished-at="2019-05-25T13:48:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebr -->
+      </class> <!-- testing.A -->
+      <class name="testing.B">
+        <test-method status="PASS" signature="brStart()[pri:0, instance:testing.B@73035e27]" name="brStart" is-config="true" duration-ms="1" started-at="2019-05-25T13:48:10Z" finished-at="2019-05-25T13:48:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brStart -->
+        <test-method status="PASS" signature="tcase2()[pri:0, instance:testing.B@73035e27]" name="tcase2" duration-ms="2" started-at="2019-05-25T13:48:10Z" finished-at="2019-05-25T13:48:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcase2 -->
+        <test-method status="PASS" signature="closebr()[pri:0, instance:testing.B@73035e27]" name="closebr" is-config="true" duration-ms="1" started-at="2019-05-25T13:48:10Z" finished-at="2019-05-25T13:48:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebr -->
+      </class> <!-- testing.B -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
